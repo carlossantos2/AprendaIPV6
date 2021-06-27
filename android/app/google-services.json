@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "60638044770",
+    "project_id": "aprenda-ipv6-1",
+    "storage_bucket": "aprenda-ipv6-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60638044770:android:bb1b4c64a74e87d6a1e73b",
+        "android_client_info": {
+          "package_name": "aprendaipv6.com.aprenda_ipv6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60638044770-3fgqhbp5b11e8laa801h8idmbl543l02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aprendaipv6.com.aprenda_ipv6",
+            "certificate_hash": "fd9f9e118c3c4319c8ce0dbb6ebc503fc9ca93b1"
+          }
+        },
+        {
+          "client_id": "60638044770-vdo7138ipqguhj3e7sdd8k8juefvk46m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSnTjssO-rovt_qywebBN56LUPWE_ErNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60638044770-vdo7138ipqguhj3e7sdd8k8juefvk46m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
