@@ -63,7 +63,7 @@ class _VideoTresState extends State<VideoTres> {
               floatingActionButton: FloatingActionButton(
                 child: Icon(Icons.arrow_forward_outlined),
                 onPressed: (){
-                  //push(context, VideoUm());
+                  deactivate();
                   push(context, QuizUm());//titulo é uma variável que recebe o título da página
                 },
               )

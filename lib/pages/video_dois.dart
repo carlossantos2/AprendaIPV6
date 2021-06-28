@@ -1,5 +1,4 @@
 import 'package:aprenda_ipv6/pages/page_dois.dart';
-import 'package:aprenda_ipv6/pages/page_um.dart';
 import 'package:aprenda_ipv6/utils/nav.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -64,7 +63,7 @@ class _VideoDoisState extends State<VideoDois> {
               floatingActionButton: FloatingActionButton(
                 child: Icon(Icons.arrow_forward_outlined),
                 onPressed: (){
-                  //push(context, VideoUm());
+                  deactivate();
                   push(context, PageDois());//titulo é uma variável que recebe o título da página
                 },
               )
