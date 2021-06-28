@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 
-//void main() => runApp(MyApp());
 
 final String titulo = 'O que é o IPv6';
 
@@ -66,7 +65,7 @@ class _VideoUmState extends State<VideoUm> {
             child: Icon(Icons.arrow_forward_outlined),
             onPressed: (){
               deactivate();
-              push(context, PageUm());//titulo é uma variável que recebe o título da página
+              push(context, PageUm());
             },
           )
           );

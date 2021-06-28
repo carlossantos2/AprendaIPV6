@@ -64,7 +64,7 @@ class _VideoTresState extends State<VideoTres> {
                 child: Icon(Icons.arrow_forward_outlined),
                 onPressed: (){
                   deactivate();
-                  push(context, QuizUm());//titulo é uma variável que recebe o título da página
+                  push(context, QuizUm());
                 },
               )
           );

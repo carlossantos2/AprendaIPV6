@@ -64,7 +64,7 @@ class _VideoDoisState extends State<VideoDois> {
                 child: Icon(Icons.arrow_forward_outlined),
                 onPressed: (){
                   deactivate();
-                  push(context, PageDois());//titulo é uma variável que recebe o título da página
+                  push(context, PageDois());
                 },
               )
           );
