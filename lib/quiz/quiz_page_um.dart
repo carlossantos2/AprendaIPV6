@@ -30,7 +30,7 @@ class QuizUm extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(10),
                         child: Text(
-                            "Quantos bist possui um endereço IPv6?",
+                            "Quantos bits possui um endereço IPv6?",
                             style: TextStyle(
                               fontSize: 30,
                               color: Colors.black,

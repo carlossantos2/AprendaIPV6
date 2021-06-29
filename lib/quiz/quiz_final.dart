@@ -5,81 +5,87 @@ import 'package:flutter/material.dart';
 import 'package:aprenda_ipv6/utils/nav.dart';
 import 'package:flutter/services.dart';
 
+bool _allow = true;
 class Resultado extends StatelessWidget {
     @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,// remove o botão de voltar no menu superior
-        title: Text("Resultado"),
-        centerTitle: true,
-      ),
-      body: Container(
-        color: Colors.white,
-        child: Column(
-          children: [
-            Container(
-              height: 350,
-              width: 400,
-              color: Colors.white,
-              child: Center(
-                  child: Image.asset("assets/estude.png",
-                    width: 400,
-                    height: 350,
-                    fit: BoxFit.cover,
-                  ),
-              ),
-            ),
-            Container(
-              height: 250,
-              width: 400,
-              color: Colors.white,
-              child: Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: _texto(),
+    return WillPopScope(
+      onWillPop: (){
+        return Future.value(_allow); // if true allow back else block it
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          automaticallyImplyLeading: false,// remove o botão de voltar no menu superior
+          title: Text("Resultado"),
+          centerTitle: true,
+        ),
+        body: Container(
+          color: Colors.white,
+          child: Column(
+            children: [
+              Container(
+                height: 350,
+                width: 400,
+                color: Colors.white,
+                child: Center(
+                    child: Image.asset("assets/estude.png",
+                      width: 400,
+                      height: 350,
+                      fit: BoxFit.cover,
+                    ),
                 ),
               ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
+              Container(
+                height: 250,
+                width: 400,
+                color: Colors.white,
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(20),
+                    child: _texto(),
                   ),
-                child: Text("Sair",
+                ),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.red,
+                    ),
+                  child: Text("Sair",
+                      style: TextStyle(
+                        fontSize: 33,
+                        color: Colors.white,
+                      ),
+                  ),
+                    onPressed: (){
+                      _zerarponto();
+                      SystemNavigator.pop();
+                    },
+                  ),
+                  ElevatedButton.icon(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.green,
+                    ),
+                    label: Text("Refazer",
                     style: TextStyle(
                       fontSize: 33,
                       color: Colors.white,
                     ),
-                ),
-                  onPressed: (){
-                    _zerarponto();
-                    SystemNavigator.pop();
-                  },
-                ),
-                ElevatedButton.icon(
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
-                  ),
-                  label: Text("Refazer",
-                  style: TextStyle(
-                    fontSize: 33,
-                    color: Colors.white,
-                  ),
-                  ),
-                  icon: Icon(Icons.autorenew),
-                  onPressed: (){
-                    _zerarponto();
-                    push(context, Home());
-                  },
-                )
-              ],
-            )
-          ],
-        ),
-      )
+                    ),
+                    icon: Icon(Icons.autorenew),
+                    onPressed: (){
+                      _zerarponto();
+                      push(context, Home());
+                    },
+                  )
+                ],
+              )
+            ],
+          ),
+        )
+      ),
     );
   }
 }
