@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:aprenda_ipv6/utils/nav.dart';
 import 'package:flutter/services.dart';
 
-bool _allow = true;
+bool _allow = false;
 class Resultado extends StatelessWidget {
     @override
   Widget build(BuildContext context) {
