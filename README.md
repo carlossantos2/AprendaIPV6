@@ -17,3 +17,6 @@ Aplicativo desenvolvido com a tecnologia Flutter (https://flutter.dev)
 
 # Vídeo de Apresentação do App
 [![Watch the video](https://img.youtube.com/vi/3FtoSkYX72s/maxresdefault.jpg)](https://www.youtube.com/watch?v=3FtoSkYX72s)
+
+# Vídeo de Utilização do App
+[![Watch the video](https://img.youtube.com/vi/zDGxAcvSzCo/maxresdefault.jpg)](https://www.youtube.com/watch?v=zDGxAcvSzCo)
