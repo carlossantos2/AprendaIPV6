@@ -9,6 +9,8 @@ Aplicativo desenvolvido com a tecnologia Flutter (https://flutter.dev)
 # Fluxograma do App
 ![Fluxograma do App](https://user-images.githubusercontent.com/81421837/112919768-1981ab80-90de-11eb-8d0e-4dd1c30219e3.png)
 
+![tree](https://user-images.githubusercontent.com/81421837/126052518-af764f20-aa9b-4da0-8250-ef4efe918560.png)
+
 # Logo
 ![Logo](https://github.com/carlossantos2/AprendaIPV6/blob/2c91030e7d43e3dff9878e29e06741dfc70f59ba/Logo%20IPv6.png)
 
