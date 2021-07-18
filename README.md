@@ -1,5 +1,5 @@
 # AprendaIPV6
-AprendaIPV6 é um APP mobile com fins pedagógicos que está sendo desenvolvido para facilitar a aprendizagem de IPV6 para estudantes de tecnologia, especificamente alunos dos segundos anos das turmas de Redes de Computadores da Escola Técnica Estadual Maria Eduarda Ramos de Barros, localizada no município de Carpina-PE. O Aplicativo dispõe de material para leitura, vídeos com imagens e ilustrações, bem como um quiz para verificação da aprendizagem.
+AprendaIPV6 é um APP mobile com fins pedagógicos que foi desenvolvido para facilitar a aprendizagem de IPV6 para estudantes de tecnologia, especificamente alunos dos segundos anos das turmas de Redes de Computadores da Escola Técnica Estadual Maria Eduarda Ramos de Barros, localizada no município de Carpina-PE. O Aplicativo dispõe de material para leitura, vídeos com imagens e ilustrações, bem como um quiz para verificação da aprendizagem.
 
 App desenvolvido como projeto da Disciplina Fundamentos de Programação Aplicada da UFRPE/PPGIA.
 
