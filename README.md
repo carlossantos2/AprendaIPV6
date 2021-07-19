@@ -12,5 +12,11 @@ Aplicativo desenvolvido com a tecnologia Flutter (https://flutter.dev)
 # Logo
 ![Logo](https://github.com/carlossantos2/AprendaIPV6/blob/2c91030e7d43e3dff9878e29e06741dfc70f59ba/Logo%20IPv6.png)
 
+# Telas e Navegação
+![Telas](https://user-images.githubusercontent.com/81421837/126074427-c80c1559-a73a-45a4-a09e-df73dad69d5b.png)
+
 # Vídeo de Apresentação do App
 [![Watch the video](https://img.youtube.com/vi/3FtoSkYX72s/maxresdefault.jpg)](https://www.youtube.com/watch?v=3FtoSkYX72s)
+
+# Vídeo de Utilização do App
+[![Watch the video](https://img.youtube.com/vi/zDGxAcvSzCo/maxresdefault.jpg)](https://www.youtube.com/watch?v=zDGxAcvSzCo)
