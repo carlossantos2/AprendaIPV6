@@ -21,16 +21,18 @@ class Resultado extends StatelessWidget {
         ),
         body: Container(
           color: Colors.white,
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
           child: Column(
             children: [
               Container(
-                height: 350,
-                width: 400,
+                height: MediaQuery.of(context).size.height * .4,
+                width: MediaQuery.of(context).size.width,
                 color: Colors.white,
                 child: Center(
                     child: Image.asset("assets/estude.png",
-                      width: 400,
-                      height: 350,
+                      height: MediaQuery.of(context).size.height * .4,
+                      width: MediaQuery.of(context).size.width,
                       fit: BoxFit.cover,
                     ),
                 ),

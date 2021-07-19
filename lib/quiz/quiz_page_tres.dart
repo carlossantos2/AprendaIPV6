@@ -21,14 +21,14 @@ class QuizTres extends StatelessWidget {
         body: Center(
           child: Container(
               color: Colors.white,
-              //height: 50,
-              //width: 300,
+              height: MediaQuery.of(context).size.height,
+              width: MediaQuery.of(context).size.width,
               child: Column(
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      height: 340,
+                      height: MediaQuery.of(context).size.height * .4,
                       width: 400,
                       color: Colors.cyan,
                       child: Center(
@@ -49,7 +49,7 @@ class QuizTres extends StatelessWidget {
                   ),
                   SizedBox(height: 30),
                   Container(
-                    height: 80,
+                    height: MediaQuery.of(context).size.height * .11,
                     width: 300,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(onPrimary: Colors.green), //muda cor do botão ao clicar
@@ -67,7 +67,7 @@ class QuizTres extends StatelessWidget {
                   ),
                   SizedBox(height: 15),
                   Container(
-                    height: 80,
+                    height: MediaQuery.of(context).size.height * .11,
                     width: 300,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(onPrimary: Colors.red),
@@ -84,7 +84,7 @@ class QuizTres extends StatelessWidget {
                   ),
                   SizedBox(height: 15),
                   Container(
-                    height: 80,
+                    height: MediaQuery.of(context).size.height * .11,
                     width: 300,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(onPrimary: Colors.red),
